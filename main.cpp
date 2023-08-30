@@ -46,7 +46,7 @@ private:
 
 int main()
 {
-	Compress compressed("test.txt");
+	Compress compressed("../samples/theCLoud.txt");
 	compressed.printCodes();
 	// Decompress decmp("compressed.bin", compressed.getRoot(), freq.getTotalSize());
 
